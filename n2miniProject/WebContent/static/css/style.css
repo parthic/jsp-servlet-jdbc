@@ -1,0 +1,104 @@
+body {
+    background: url(../images/image.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+   
+}
+/* body {
+    background-color: green; */
+}
+form {
+    border: 3px solid #f1f1f1;
+    background-image: url("static/images/image.jpg");
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-size : 20px;
+}
+label {
+	font-size : 30px;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+table {
+  border-collapse: collapse;
+  /* border: 1px solid #888; */
+}
+th,
+td {
+	color: #000;
+    font-size: 35px;
+  /* border: 1px solid #cecfd5; */
+  padding: 10px 15px;
+  
+}
+a{
+	
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-size : 20px;
+
+}
+p{
+	 font-size : 20px;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
